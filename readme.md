@@ -20,7 +20,7 @@ SECRET_KEY = config.get('secrets', 'key')
 Because `local.settings.ini` is ignored on commits i know I'll never upload that secrets key. But, when the project is fired up for the first time (or requires new settings) the settings file and values are missing. It's a little cumbersome to go into the project settings to solve the sections and values in the ini file. 
 
 
-LocalizePythonConfig reads the file with the configuration settings in it and creates a skeleton local.settings.ini file.
+SkeletonizeConfig reads the file with the configuration settings in it and creates a skeleton local.settings.ini file.
 
 
 ## Usages
