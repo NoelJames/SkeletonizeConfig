@@ -24,8 +24,8 @@ SkeletonizeConfig reads the file with the configuration settings in it and creat
 
 
 ## Usages
-```bash
-usage: skeletonize_config.py  [-h] [-i INI_FILE] [-o] [-r] source_file
+```
+usage: skeletonize_config  [-h] [-i INI_FILE] [-o] [-r] source_file
 
 localize settings from python config
 
@@ -43,7 +43,7 @@ optional arguments:
 
 ## Example
 
-```bash
+```
 $ python skeletonize_config.py  ../tests/scripts/settings.py 
 DEBUG:root:arguments: Namespace(ini_file='local.settings.ini', overwrite=False, remove_missing=False, source_file='../tests/scripts/settings.py')
 DEBUG:root:Loaded: ../tests/scripts/settings.py to <_frozen_importlib.SourceFileLoader object at 0x101220710>
@@ -76,7 +76,14 @@ Success: local.settings.ini
 
 ```
 
-## Updates
+## Install
+
+```
+git clone https://github.com/NoelJames/SkeletonizeConfig.git
+cd SkeletonizeConfig
+python setup.py install
+```
+
 
 Check for updates at [Github.com/NoelJames/SkeletonizeConfig](https://github.com/NoelJames/SkeletonizeConfig)
 

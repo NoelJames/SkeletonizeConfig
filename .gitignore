@@ -54,3 +54,8 @@ coverage.xml
 # Translations
 *.mo
 *.pot
+
+# Setup
+build
+dist
+*.egg-info
