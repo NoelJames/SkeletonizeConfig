@@ -1,0 +1,56 @@
+##local config
+.*
+local.*
+local_*
+trash
+
+# local environments
+env
+*.sqlite3
+__pycache__
+
+# dot files to not ignore
+!.gitignore
+
+## Data
+data/*
+
+## Backups Files and tmp files
+*.bak
+.#*
+#*
+*.*~
+*.pyc
+
+
+## OS generated crud
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+
+## indexes and data files
+*.idx
+*.dat
+log/*
+!log/README.md
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+
+
+# Translations
+*.mo
+*.pot
